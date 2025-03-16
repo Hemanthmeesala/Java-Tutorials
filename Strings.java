@@ -10,5 +10,7 @@ public class Strings {
         StringBuffer sb = new StringBuffer("Hemanth");
         System.out.println(sb.capacity());
         System.out.println(sb.length());
+        sb.append("Kumar");
+        System.out.println(sb);
     }
 }
